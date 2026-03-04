@@ -15,7 +15,7 @@ If anyone is using this image please reach out with a bug report so I don't rand
 
 ### Tweaks
 
-- Pre-installed Nvidia proprietary drivers
+- Pre-installed Nvidia drivers
 - Firefox removed (install web browser from software centre or cli)
 - New default wallpapers added
 - Hack [Nerd Font](https://www.nerdfonts.com/) included
