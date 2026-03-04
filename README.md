@@ -2,7 +2,7 @@
 
 A cozy [fedora atomic](https://fedoraproject.org/atomic-desktops/) remix distro based on [silverblue-main](https://github.com/ublue-os/main/pkgs/container/silverblue-main) by [ublue](https://universal-blue.org/).
 
-![Desktop Screenshot](https://raw.githubusercontent.com/Sennia-Linux/.github/refs/heads/main/profile/preview.png)
+![Desktop Screenshot](https://raw.githubusercontent.com/PolyCatDev/sennia-linux/refs/heads/main/.github/preview.png)
 
 
 ## What is this?
