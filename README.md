@@ -1,4 +1,4 @@
-# Sennia Linux &nbsp; [![bluebuild build badge](https://github.com/PolyCatDev/sennia-linux/actions/workflows/build.yml/badge.svg)](https://github.com/PolyCatDev/sennia-linux/actions/workflows/build.yml)
+# 🌸 Sennia Linux &nbsp; [![bluebuild build badge](https://github.com/PolyCatDev/sennia-linux/actions/workflows/build.yml/badge.svg)](https://github.com/PolyCatDev/sennia-linux/actions/workflows/build.yml)
 
 A cozy [fedora atomic](https://fedoraproject.org/atomic-desktops/) remix distro based on [silverblue-main](https://github.com/ublue-os/main/pkgs/container/silverblue-main) by [ublue](https://universal-blue.org/).
 
