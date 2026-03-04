@@ -16,10 +16,8 @@ modules:
   - type: script
     scripts:
       - remove-default-backgrounds.sh
-      - install-plymouth-theme.sh
     snippets:
       - rm -f /usr/share/ublue-os/just/10-update.just
-      - echo 'compress="zstd"' >> /etc/dracut.conf.d/10-fastboot.conf
 
   - type: files
     files:
@@ -140,5 +138,4 @@ modules:
     nofile-limits: true
 
   - type: gschema-overrides
-  - type: initramfs
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
