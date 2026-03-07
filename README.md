@@ -4,12 +4,15 @@ A cozy [fedora atomic](https://fedoraproject.org/atomic-desktops/) remix distro 
 
 ![Desktop Screenshot](https://raw.githubusercontent.com/PolyCatDev/sennia-linux/refs/heads/main/.github/preview.png)
 
+>[!IMPORTANT]
+>If anyone is using this image please reach out with a bug report so I don't randomly change things on your computer.
 
 ## What is this?
 
 This is my own tweaked [bootable container](https://docs.fedoraproject.org/en-US/bootc/getting-started/) deployment that I maintain for myself. It's mainly focused on 3D graphics, programming and gaming workloads.
 
-If anyone is using this image please reach out with a bug report so I don't randomly change things on your computer.
+>[!TIP]
+>It's essentially [Fedora Silverblue](https://fedoraproject.org/atomic-desktops/silverblue/) with a bunch of pre-installed apps and tweaks that I like.
 
 ## Changes and Features
 
