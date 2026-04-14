@@ -24,11 +24,6 @@ modules:
       - source: system
         destination: /
 
-  - type: fonts
-    fonts:
-      nerd-fonts:
-        - Hack
-
   - type: gnome-extensions
     install:
       - 615 # AppIndicator and KStatusNotifierItem Support
@@ -76,8 +71,6 @@ modules:
 
         # Deps
         - nautilus-python
-        - openssl
-        - libxcrypt-compat
 
     remove:
       auto-remove: true
