@@ -128,7 +128,7 @@ modules:
     brew-analytics: false
     auto-update: false
     auto-upgrade: false
-    nofile-limits: true
+    nofile-limits: false
 
   - type: gschema-overrides
   - type: initramfs
