@@ -48,8 +48,6 @@ modules:
         - pgdev/ghostty
     install:
       packages:
-        - loupe
-        - celluloid
         - gnome-tweaks
         - stow
         - ghostty
@@ -124,6 +122,8 @@ modules:
       - notify: false
         scope: user
         install:
+          - org.gnome.Loupe
+          - io.github.celluloid_player.Celluloid
           - com.mattjakeman.ExtensionManager
           - org.gnome.Calendar
           - com.github.tchx84.Flatseal
