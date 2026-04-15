@@ -1,3 +1,2 @@
 [org.gnome.shell]
-enabled-extensions=['background-logo@fedorahosted.org', 'appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx', 'caffeine@patapon.info']
-
+enabled-extensions=['status-tray@keithvassallo.com', 'blur-my-shell@aunetx', 'caffeine@patapon.info']

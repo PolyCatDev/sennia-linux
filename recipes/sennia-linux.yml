@@ -26,7 +26,7 @@ modules:
 
   - type: gnome-extensions
     install:
-      - 615 # AppIndicator and KStatusNotifierItem Support
+      - 9164 # Status Tray
       - 517 # Caffeine
       - 3193 # Blur my Shell
 
