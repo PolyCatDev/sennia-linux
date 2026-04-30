@@ -21,7 +21,6 @@ It's essentially [Fedora Silverblue](https://fedoraproject.org/atomic-desktops/s
 - Pre-installed Nvidia drivers
 - Firefox removed (install web browser from software centre or cli)
 - New default wallpapers added
-- Hack [Nerd Font](https://www.nerdfonts.com/) included
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/), [Appindicator Support](https://extensions.gnome.org/extension/615/appindicator-support/) and [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) extensions included
 - v4l2loopback kernel module for obs virtual webcam
 
