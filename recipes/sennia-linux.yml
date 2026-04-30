@@ -5,6 +5,13 @@ base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 43
 
 modules:
+  
+  - type: os-release
+    properties:
+      NAME: Sennia
+      PRETTY_NAME: Sennia Linux
+      HOME_URL: https://github.com/PolyCatDev/sennia-linux
+      DEFAULT_HOSTNAME: sennia
 
   - type: script
     scripts:
