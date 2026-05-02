@@ -1,2 +1,3 @@
 [org.gnome.shell]
-enabled-extensions=['status-tray@keithvassallo.com', 'blur-my-shell@aunetx', 'caffeine@patapon.info']
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx', 'caffeine@patapon.info']
+

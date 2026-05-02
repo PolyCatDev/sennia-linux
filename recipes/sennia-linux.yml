@@ -20,7 +20,7 @@ modules:
   - type: gschema-overrides
   - type: gnome-extensions
     install:
-      - 9164 # Status Tray
+      - 615 # AppIndicator and KStatusNotifierItem Support
       - 517 # Caffeine
       - 3193 # Blur my Shell
 
