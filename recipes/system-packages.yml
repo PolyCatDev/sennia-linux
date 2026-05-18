@@ -18,13 +18,11 @@ modules:
       cleanup: true
       files:
         - https://download.docker.com/linux/fedora/docker-ce.repo
-      copr:
-        - scottames/ghostty
     install:
       packages:
         - gnome-tweaks
         - stow
-        - ghostty
+        - alacritty
         - btop
         - ripgrep
         - fuse-sshfs
@@ -68,11 +66,6 @@ modules:
         - dconf-editor
         - htop
         - gnome-extensions-app
-
-  - type: script
-    snippets:
-      - "sed -i 's/^Terminal=true/Terminal=false/' /usr/share/applications/nvim.desktop"
-      - "sed -i 's|^Exec=.*|Exec=/usr/bin/ghostty -e nvim %F|' /usr/share/applications/nvim.desktop"
 
   - type: systemd
     system:
