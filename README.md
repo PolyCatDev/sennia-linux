@@ -20,7 +20,7 @@ It's essentially [Fedora Silverblue](https://fedoraproject.org/atomic-desktops/s
 
 - Pre-installed Nvidia drivers
 - Firefox removed (install web browser from software centre or cli)
-- New default wallpapers added
+- New default wallpapers added. See them [here](https://github.com/PolyCatDev/sennia-linux/tree/main/files/system/usr/share/backgrounds/sennia)
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/), [Appindicator Support](https://extensions.gnome.org/extension/615/appindicator-support/) and [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) extensions included
 - v4l2loopback kernel module for obs virtual webcam
 
