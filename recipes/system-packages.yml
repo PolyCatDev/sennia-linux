@@ -29,6 +29,7 @@ modules:
         - fuse-sshfs
         - steam
         - mangohud
+        - gamescope
 
         # Dev Tools
         - python3-devel
