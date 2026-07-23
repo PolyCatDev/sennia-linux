@@ -2,7 +2,7 @@ name: sennia-linux
 description: uBlue imaged tweaked by PolyCat with nvidia drivers
 
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 43
+image-version: 44
 
 modules:
   
