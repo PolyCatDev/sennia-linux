@@ -29,7 +29,6 @@ modules:
         - fuse-sshfs
         - steam
         - mangohud
-        - gamescope
         - wayland-utils
 
         # Dev Tools
