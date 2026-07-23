@@ -34,6 +34,7 @@ modules:
         - steam
         - mangohud
         - gamescope
+        - wayland-utils
 
         # Dev Tools
         - python3-devel
