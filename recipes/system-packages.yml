@@ -13,10 +13,6 @@ modules:
 
     nvidia-driver: nvidia-open
 
-  - type: kargs
-    kargs:
-      - nvidia_drm.modeset=1
-
   - type: dnf
     repos:
       cleanup: true
