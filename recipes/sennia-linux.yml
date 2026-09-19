@@ -8,10 +8,9 @@ modules:
   
   - type: os-release
     properties:
-      NAME: Sennia
-      PRETTY_NAME: Sennia Linux
       HOME_URL: https://github.com/PolyCatDev/sennia-linux
-      DEFAULT_HOSTNAME: sennia
+      BUG_REPORT_URL: https://github.com/PolyCatDev/sennia-linux/issues
+      DEFAULT_HOSTNAME: fedora-sennia
 
   - type: script
     scripts:
@@ -44,12 +43,11 @@ modules:
           - io.missioncenter.MissionCenter
           - org.gnome.Papers
 
-  - from-file: system-packages.yml
-
   - type: files
     files:
       - source: system
         destination: /
-  - type: initramfs
+
+  - from-file: system-packages.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
