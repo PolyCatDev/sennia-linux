@@ -16,6 +16,11 @@ modules:
     scripts:
       - remove-default-backgrounds.sh
 
+  - type: files
+    files:
+      - source: system
+        destination: /
+
   - type: gschema-overrides
   - type: gnome-extensions
     install:
@@ -42,11 +47,6 @@ modules:
           - it.mijorus.gearlever
           - io.missioncenter.MissionCenter
           - org.gnome.Papers
-
-  - type: files
-    files:
-      - source: system
-        destination: /
 
   - from-file: system-packages.yml
 
