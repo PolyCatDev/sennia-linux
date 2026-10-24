@@ -1,4 +1,4 @@
-# Update Homebrew, Flatpak and System Packages
+# Update homebrew, flatpak and system packages (has as alias shell command 'upd')
 @update:
     echo -e "\e[32mUpdating Homebrew Packages\e[0m"
     brew update && brew upgrade -y
