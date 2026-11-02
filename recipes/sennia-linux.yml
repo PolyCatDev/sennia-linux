@@ -47,7 +47,7 @@ modules:
           - com.github.tchx84.Flatseal
           - it.mijorus.gearlever
           - io.missioncenter.MissionCenter
-          - org.gnome.Papers
+          - org.kde.okular
 
   - from-file: system-packages.yml
 
