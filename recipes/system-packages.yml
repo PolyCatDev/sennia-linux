@@ -37,6 +37,7 @@ modules:
         - python3-devel
         - android-tools
         - git-lfs
+        - qemu
 
         # Container Tools
         - docker-ce
