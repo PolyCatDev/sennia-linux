@@ -1,4 +1,4 @@
-# This file manages all that has to do with system packages and modules
+# This file manages all that has to do with packages
 
 modules:
 
@@ -83,3 +83,23 @@ modules:
     user:
       disabled:
         - flatpak-user-update.timer
+
+  - type: brew
+    brew-analytics: false
+    auto-update: false
+    auto-upgrade: false
+    nofile-limits: false
+
+  - type: default-flatpaks
+    configurations:
+      - notify: false
+        scope: user
+        install:
+          - org.gnome.Loupe
+          - io.github.celluloid_player.Celluloid
+          - com.mattjakeman.ExtensionManager
+          - org.gnome.Calendar
+          - com.github.tchx84.Flatseal
+          - it.mijorus.gearlever
+          - io.missioncenter.MissionCenter
+          - org.kde.okular

@@ -29,26 +29,6 @@ modules:
       - 517 # Caffeine
       - 3193 # Blur my Shell
 
-  - type: brew
-    brew-analytics: false
-    auto-update: false
-    auto-upgrade: false
-    nofile-limits: false
-
-  - type: default-flatpaks
-    configurations:
-      - notify: false
-        scope: user
-        install:
-          - org.gnome.Loupe
-          - io.github.celluloid_player.Celluloid
-          - com.mattjakeman.ExtensionManager
-          - org.gnome.Calendar
-          - com.github.tchx84.Flatseal
-          - it.mijorus.gearlever
-          - io.missioncenter.MissionCenter
-          - org.kde.okular
-
-  - from-file: system-packages.yml
+  - from-file: pkgs.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
