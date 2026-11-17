@@ -30,7 +30,7 @@ It's essentially [Fedora Silverblue](https://fedoraproject.org/atomic-desktops/s
 
 - [Loupe](https://apps.gnome.org/Loupe/) - Image Viewer
 - [Celluloid](https://celluloid-player.github.io/) - Media Player
-- [Gnome Papers](https://apps.gnome.org/Papers/) - Document Wiever
+- [Okular](https://okular.kde.org/) - Document Viewer
 - [Gnome Calendar](https://apps.gnome.org/Calendar/) - Calendar App
 - [Mission Center](https://missioncenter.io/) - Task Manager for Linux
 - [btop](https://github.com/aristocratos/btop) - Task Manager in the Terminal 
@@ -43,10 +43,15 @@ It's essentially [Fedora Silverblue](https://fedoraproject.org/atomic-desktops/s
 #### Dev Tools
 
 - [Ghostty](https://ghostty.org/) - Terminal Emulator
+- [stow](https://www.gnu.org/software/stow/) - CLI Symlink Manager (see tutorial [here](https://www.youtube.com/watch?v=y6XCebnB9gs))
 - [Git LFS](https://git-lfs.com/) - Large File Storage with Git
 - [Android Tools (adb, fastboot)](https://developer.android.com/tools/releases/platform-tools)
 - [Podman](https://podman.io/) and [Docker](https://www.docker.com/) - Container Tools
+- [qemu](https://www.qemu.org/) - Machine emulator and virtualizer with a CLI interface (see tutorial [here](https://www.youtube.com/watch?v=AAfFewePE7c))
 - [sshfs](https://github.com/libfuse/sshfs) - Mount Remote Directories on your Machine via SSH
+
+>[!TIP]
+>Run `ujust` for a set of useful commands and run `ujust update` or `upd` to update your system (flatpaks, homebrew packages and base OS image).
 
 ## Installation
 
